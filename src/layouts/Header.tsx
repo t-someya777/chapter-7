@@ -1,6 +1,6 @@
 import { Outlet, NavLink } from "react-router-dom";
 
-export default function Header() {
+const Header:React.FC = () => {
   return (
     <>
       <header>
@@ -13,3 +13,5 @@ export default function Header() {
     </>
   )
 }
+
+export default Header
